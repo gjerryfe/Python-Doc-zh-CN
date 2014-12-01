@@ -34,7 +34,7 @@ Python由`Guido Van Rossum`发明于90年代初期，是当今最流行的编程
 2.0     # This is a float
 11.0 / 4.0  # => 2.75 啊哈...貌似结果好很多了
 
-# Result of integer division truncated down both for positive and negative. 
+# 用双斜杠"//"做整型数除法，正负数都适用，结果会向下取整
 5 // 3     # => 1
 5.0 // 3.0 # => 1.0 # 对浮点数同样适用
 -5 // 3  # => -2
@@ -113,7 +113,7 @@ None  # => None
 "etc" is None  # => False
 None is None  # => True
 
-# 'is' 操作符用来比较俩对象的标识符(译者注:即内存地址)。
+# 'is' 操作符用来比较俩对象的标识符(译者注:即内存地址)
 # 它对于普通的数值比较不管用
 # 但在处理对象比较时则很有用
 
@@ -602,7 +602,7 @@ print(say(say_please=True))  # Can you buy me a beer? Please! I am poor :(
 - [Python Module of the Week](http://pymotw.com/2/)
 - [A Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)
 
-#### 实体书 [Dead Tree]
+#### 实体书 (Dead Tree)
 - [Programming Python](http://www.amazon.com/gp/product/0596158106/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596158106&linkCode=as2&tag=homebits04-20)
 - [Dive Into Python](http://www.amazon.com/gp/product/1441413022/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1441413022&linkCode=as2&tag=homebits04-20)
 - [Python Essential Reference](http://www.amazon.com/gp/product/0672329786/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0672329786&linkCode=as2&tag=homebits04-20)
@@ -610,6 +610,5 @@ print(say(say_please=True))  # Can you buy me a beer? Please! I am poor :(
 ### 译者注
 - 更新时间：`2014-12-01`
 - 本人翻译的初衷是为了自身学习和记录，翻译不好的地方，还望读者见谅。
-- 这篇翻译是目前网上最新的，包括了所有新的改动，原文在[Learn X in Y Minutes: Where X = Python](https://github.com/adambard/learnxinyminutes-docs/blob/master/python.html.markdown)
+- 这篇翻译是目前网上最新的，包括了所有新的改动，原文在 [Learn X in Y Minutes: Where X = Python](https://github.com/adambard/learnxinyminutes-docs/blob/master/python.html.markdown)
 - 本人会持续关注原文的更新，并保证这里的一直是最新版。
-
