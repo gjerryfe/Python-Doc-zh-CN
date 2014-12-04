@@ -31,7 +31,7 @@ Python由`Guido Van Rossum`发明于90年代初期，是当今最流行的编程
 5 / 2  # => 2
 
 # 要想得到我们期望的除法，我们首先需要学习浮点数`floats`
-2.0     # This is a float
+2.0     # 这是一个浮点数
 11.0 / 4.0  # => 2.75 啊哈...貌似结果好很多了
 
 # 用双斜杠"//"做整型数除法，正负数都适用，结果会向下取整
@@ -317,7 +317,7 @@ For语句用来对列表进行循环迭代
     mouse is a mammal
 """
 for animal in ["dog", "cat", "mouse"]:
-    # You can use % to interpolate formatted strings
+    # 你可以使用%来插入格式化字符串
     print("%s is a mammal" % animal)
 
 """
@@ -342,7 +342,7 @@ While循环会一直执行，直到条件不再满足
 x = 0
 while x < 4:
     print(x)
-    x += 1  # Shorthand for x = x + 1
+    x += 1  # 表示x = x + 1
 
 # 用try/except语块来处理异常
 
